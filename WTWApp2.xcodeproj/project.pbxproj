@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		112959B91E959DD3006A45C6 /* BrowseProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112959B81E959DD3006A45C6 /* BrowseProductsViewController.swift */; };
+		112959BB1E959E06006A45C6 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112959BA1E959E06006A45C6 /* Buttons.swift */; };
+		112959BF1E959E43006A45C6 /* CheckoutRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112959BE1E959E43006A45C6 /* CheckoutRowView.swift */; };
+		112959C11E959EA2006A45C6 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112959C01E959EA2006A45C6 /* CheckoutViewController.swift */; };
+		112959C31E95A0EC006A45C6 /* MyAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112959C21E95A0EC006A45C6 /* MyAPIClient.swift */; };
+		112959C51E95A117006A45C6 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112959C41E95A117006A45C6 /* Networking.swift */; };
+		112959C71E95A143006A45C6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112959C61E95A143006A45C6 /* SettingsViewController.swift */; };
+		36B6613C6D8FF3B121D5C8B8 /* Pods_WTWApp2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D9C9987C895533E5D621D /* Pods_WTWApp2.framework */; };
 		6973A63C1E80716D002746DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6973A63B1E80716D002746DE /* AppDelegate.swift */; };
 		6973A63E1E80716D002746DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6973A63D1E80716D002746DE /* ViewController.swift */; };
 		6973A6411E80716D002746DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6973A63F1E80716D002746DE /* Main.storyboard */; };
@@ -35,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09771634F61F4DAF209950AA /* Pods-WTWApp2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTWApp2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTWApp2/Pods-WTWApp2.debug.xcconfig"; sourceTree = "<group>"; };
+		112959B81E959DD3006A45C6 /* BrowseProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseProductsViewController.swift; sourceTree = "<group>"; };
+		112959BA1E959E06006A45C6 /* Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		112959BE1E959E43006A45C6 /* CheckoutRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutRowView.swift; sourceTree = "<group>"; };
+		112959C01E959EA2006A45C6 /* CheckoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		112959C21E95A0EC006A45C6 /* MyAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAPIClient.swift; sourceTree = "<group>"; };
+		112959C41E95A117006A45C6 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		112959C61E95A143006A45C6 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		116D9C9987C895533E5D621D /* Pods_WTWApp2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTWApp2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6973A6381E80716D002746DE /* WTWApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTWApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6973A63B1E80716D002746DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6973A63D1E80716D002746DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +66,7 @@
 		6973A65B1E80716D002746DE /* WTWApp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTWApp2UITests.swift; sourceTree = "<group>"; };
 		6973A65D1E80716D002746DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69BCE46B1E85C5EF002139F7 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		A254EB95214DCAEE3035538B /* Pods-WTWApp2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTWApp2.release.xcconfig"; path = "Pods/Target Support Files/Pods-WTWApp2/Pods-WTWApp2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36B6613C6D8FF3B121D5C8B8 /* Pods_WTWApp2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +95,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		263BBA3996757E08A8A89A1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09771634F61F4DAF209950AA /* Pods-WTWApp2.debug.xcconfig */,
+				A254EB95214DCAEE3035538B /* Pods-WTWApp2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6973A62F1E80716D002746DE = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				6973A64F1E80716D002746DE /* WTWApp2Tests */,
 				6973A65A1E80716D002746DE /* WTWApp2UITests */,
 				6973A6391E80716D002746DE /* Products */,
+				263BBA3996757E08A8A89A1E /* Pods */,
+				D451C99C3A2DAB58E8674082 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +131,18 @@
 			children = (
 				6973A63B1E80716D002746DE /* AppDelegate.swift */,
 				6973A63D1E80716D002746DE /* ViewController.swift */,
+				112959B81E959DD3006A45C6 /* BrowseProductsViewController.swift */,
 				69BCE46B1E85C5EF002139F7 /* MenuTableViewController.swift */,
 				6973A63F1E80716D002746DE /* Main.storyboard */,
+				112959BA1E959E06006A45C6 /* Buttons.swift */,
 				6973A6421E80716D002746DE /* Assets.xcassets */,
+				112959BE1E959E43006A45C6 /* CheckoutRowView.swift */,
+				112959C01E959EA2006A45C6 /* CheckoutViewController.swift */,
 				6973A6441E80716D002746DE /* LaunchScreen.storyboard */,
 				6973A6471E80716D002746DE /* Info.plist */,
+				112959C21E95A0EC006A45C6 /* MyAPIClient.swift */,
+				112959C41E95A117006A45C6 /* Networking.swift */,
+				112959C61E95A143006A45C6 /* SettingsViewController.swift */,
 			);
 			path = WTWApp2;
 			sourceTree = "<group>";
@@ -128,6 +165,14 @@
 			path = WTWApp2UITests;
 			sourceTree = "<group>";
 		};
+		D451C99C3A2DAB58E8674082 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				116D9C9987C895533E5D621D /* Pods_WTWApp2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6973A6601E80716D002746DE /* Build configuration list for PBXNativeTarget "WTWApp2" */;
 			buildPhases = (
+				42CE961A8659080539ED32C5 /* [CP] Check Pods Manifest.lock */,
 				6973A6341E80716D002746DE /* Sources */,
 				6973A6351E80716D002746DE /* Frameworks */,
 				6973A6361E80716D002746DE /* Resources */,
+				110B4682BB451278A4C339F5 /* [CP] Embed Pods Frameworks */,
+				D6F04FB276AB8D70695CDA05 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,13 +306,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		110B4682BB451278A4C339F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WTWApp2/Pods-WTWApp2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42CE961A8659080539ED32C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6F04FB276AB8D70695CDA05 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WTWApp2/Pods-WTWApp2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6973A6341E80716D002746DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112959B91E959DD3006A45C6 /* BrowseProductsViewController.swift in Sources */,
 				6973A63E1E80716D002746DE /* ViewController.swift in Sources */,
 				6973A63C1E80716D002746DE /* AppDelegate.swift in Sources */,
+				112959C51E95A117006A45C6 /* Networking.swift in Sources */,
+				112959C31E95A0EC006A45C6 /* MyAPIClient.swift in Sources */,
+				112959BF1E959E43006A45C6 /* CheckoutRowView.swift in Sources */,
+				112959C11E959EA2006A45C6 /* CheckoutViewController.swift in Sources */,
+				112959BB1E959E06006A45C6 /* Buttons.swift in Sources */,
+				112959C71E95A143006A45C6 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,24 +515,34 @@
 		};
 		6973A6611E80716D002746DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09771634F61F4DAF209950AA /* Pods-WTWApp2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WTWApp2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Riddle.WTWApp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		6973A6621E80716D002746DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A254EB95214DCAEE3035538B /* Pods-WTWApp2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WTWApp2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Riddle.WTWApp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

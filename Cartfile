@@ -1,0 +1,2 @@
+#Facebook SDK and frameworks
+github "facebook/facebook-ios-sdk" ~> 4.16

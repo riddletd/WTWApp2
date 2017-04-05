@@ -1,0 +1,6 @@
+framework module Pods_WTWApp2 {
+  umbrella header "Pods-WTWApp2-umbrella.h"
+
+  export *
+  module * { export * }
+}
