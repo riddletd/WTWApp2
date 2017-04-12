@@ -4,9 +4,9 @@ target 'WTWApp2' do
 
   # Pods for WTWapp
  # pod 'Firebase'       #Used for Facebook authentication
- # pod 'FBSDKCoreKit'   #Used for login
- # pod 'FBSDKLoginKit'  #Used for login
- # pod 'FBSDKShareKit'  #Used for login
+  pod 'FBSDKCoreKit'   #Used for login
+  pod 'FBSDKLoginKit'  #Used for login
+  pod 'FBSDKShareKit'  #Used for login
   pod 'FacebookCore'   #Used for login
   pod 'FacebookLogin'  #Used for login
   pod 'FacebookShare'  #Used for login

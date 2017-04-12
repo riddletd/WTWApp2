@@ -30,6 +30,9 @@ DEPENDENCIES:
   - FacebookCore
   - FacebookLogin
   - FacebookShare
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
   - Stripe
 
 SPEC CHECKSUMS:
@@ -42,6 +45,6 @@ SPEC CHECKSUMS:
   FBSDKShareKit: ca9b22264ea49a896dafb2467c1a4f72aa41996f
   Stripe: dd6df0e2c6a8463e2f1ca9b15dc246e5ae1eee64
 
-PODFILE CHECKSUM: 73f0cc76749886accb67fb72d16a457de4b21dda
+PODFILE CHECKSUM: 35e9f1fa131d7f156ea98ec7beaf9a0cf7abef7d
 
 COCOAPODS: 1.2.0
