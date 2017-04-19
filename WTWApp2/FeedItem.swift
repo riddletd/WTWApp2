@@ -101,17 +101,17 @@ class FeedItem: NSObject {
     
     override var description: String {
         var desc = "Feed Item:\n"
-        if (feedTitle != nil) { desc += "\t- Title: \(feedTitle)\n" }
-        if (feedLink != nil) { desc += "\t- URL: \(feedLink)\n" }
-        if (feedContent != nil) { desc += "\t- Description: \(feedContent)\n" }
-        if (feedContentSnippet != nil) { desc += "\t- Content Snippet: \(feedContentSnippet)\n" }
-        if (feedPubDate != nil) { desc += "\t- Pub Date: \(feedPubDate)\n" }
-        if (feedAuthor != nil) { desc += "\t- Author: \(feedAuthor)\n" }
+        if (feedTitle != nil) { desc += "\t- Title: \(String(describing: feedTitle))\n" }
+        if (feedLink != nil) { desc += "\t- URL: \(String(describing: feedLink))\n" }
+        if (feedContent != nil) { desc += "\t- Description: \(String(describing: feedContent))\n" }
+        if (feedContentSnippet != nil) { desc += "\t- Content Snippet: \(String(describing: feedContentSnippet))\n" }
+        if (feedPubDate != nil) { desc += "\t- Pub Date: \(String(describing: feedPubDate))\n" }
+        if (feedAuthor != nil) { desc += "\t- Author: \(String(describing: feedAuthor))\n" }
         if (feedCategories.count > 0) { desc += "\t- Categories: \(feedCategories)\n" }
-        if (feedCommentsURL != nil) { desc += "\t- Comments URL: \(feedCommentsURL)\n" }
+        if (feedCommentsURL != nil) { desc += "\t- Comments URL: \(String(describing: feedCommentsURL))\n" }
         if (!feedEnclosures.isEmpty) { desc += "\t- Enclosures: \(feedEnclosures)\n" }
-        if (feedIdentifier != nil) { desc += "\t- Identifier: \(feedIdentifier)\n" }
-        if (feedSource != nil) { desc += "\t- Source channel: \(feedSource)\n" }
+        if (feedIdentifier != nil) { desc += "\t- Identifier: \(String(describing: feedIdentifier))\n" }
+        if (feedSource != nil) { desc += "\t- Source channel: \(String(describing: feedSource))\n" }
         
         return desc + "\n"
     }

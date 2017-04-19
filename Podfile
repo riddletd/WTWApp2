@@ -3,7 +3,9 @@ target 'WTWApp2' do
   use_frameworks!
 
   # Pods for WTWapp
- # pod 'Firebase'       #Used for Facebook authentication
+  pod 'Firebase/Core'       #Used for Facebook authentication
+  pod 'Firebase/Auth'
+  pod 'Bolts'
   pod 'FBSDKCoreKit'   #Used for login
   pod 'FBSDKLoginKit'  #Used for login
   pod 'FBSDKShareKit'  #Used for login
@@ -11,6 +13,6 @@ target 'WTWApp2' do
   pod 'FacebookLogin'  #Used for login
   pod 'FacebookShare'  #Used for login
   pod 'Stripe'         #Used for payments
- # pod 'GoogleMaps'     #Creating Google Maps
+  pod 'GoogleMaps'     #Creating Google Maps
 
 end

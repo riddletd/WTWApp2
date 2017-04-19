@@ -7,6 +7,14 @@
 //
 
 import UIKit
+import GoogleMaps
+import Firebase
+import FacebookLogin
+import FacebookCore
+import FacebookShare
+import FBSDKCoreKit
+import FBSDKLoginKit
+import FBSDKShareKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -23,7 +31,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window.rootViewController = navigationController;
         window.makeKeyAndVisible()
         self.window = window*/
-        return true
+        GMSServices.provideAPIKey("AIzaSyAZmXVARMBVKVhuzHTpEF8rKOdb4lyrLBk")
+        FIRApp.configure()
+        AppEventsLogger.activate(application)
+        return FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+        //FBSDKAppEvents.activateApp
+//        return true
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        return FBSDKApplicationDelegate.sharedInstance().application(app, open: url, options: options)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

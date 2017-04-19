@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A4AE64A57BA792B17B066E83A8C27241"
+               BlueprintIdentifier = "2F1BCEB07D1D2B0646B3B8473B55C108"
                BuildableName = "Pods_WTWApp2.framework"
                BlueprintName = "Pods-WTWApp2"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A4AE64A57BA792B17B066E83A8C27241"
+            BlueprintIdentifier = "2F1BCEB07D1D2B0646B3B8473B55C108"
             BuildableName = "Pods_WTWApp2.framework"
             BlueprintName = "Pods-WTWApp2"
             ReferencedContainer = "container:Pods.xcodeproj">

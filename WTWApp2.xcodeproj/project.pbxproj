@@ -14,13 +14,25 @@
 		112959C31E95A0EC006A45C6 /* MyAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112959C21E95A0EC006A45C6 /* MyAPIClient.swift */; };
 		112959C51E95A117006A45C6 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112959C41E95A117006A45C6 /* Networking.swift */; };
 		112959C71E95A143006A45C6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112959C61E95A143006A45C6 /* SettingsViewController.swift */; };
+		114358321EA80D340088EA22 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114358311EA80D340088EA22 /* FBSDKCoreKit.framework */; };
+		114358341EA80D5A0088EA22 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114358331EA80D5A0088EA22 /* FBSDKShareKit.framework */; };
+		114358381EA80DA00088EA22 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114358371EA80DA00088EA22 /* Bolts.framework */; };
+		114358401EA8165B0088EA22 /* FacebookCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114358391EA8165B0088EA22 /* FacebookCore.framework */; };
+		114358411EA8165B0088EA22 /* FacebookLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1143583A1EA8165B0088EA22 /* FacebookLogin.framework */; };
+		114358421EA8165B0088EA22 /* FacebookShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1143583B1EA8165B0088EA22 /* FacebookShare.framework */; };
+		114358431EA8165B0088EA22 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1143583C1EA8165B0088EA22 /* FBSDKLoginKit.framework */; };
+		114358441EA8165B0088EA22 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1143583D1EA8165B0088EA22 /* GoogleToolboxForMac.framework */; };
+		114358451EA8165B0088EA22 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1143583E1EA8165B0088EA22 /* GTMSessionFetcher.framework */; };
+		114358461EA8165B0088EA22 /* Stripe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1143583F1EA8165B0088EA22 /* Stripe.framework */; };
 		11825E441E9E637C007C81F7 /* FeedEnclosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11825E431E9E637C007C81F7 /* FeedEnclosure.swift */; };
-		11825E461E9E63E6007C81F7 /* FeedParswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11825E451E9E63E6007C81F7 /* FeedParswer.swift */; };
+		11825E461E9E63E6007C81F7 /* FeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11825E451E9E63E6007C81F7 /* FeedParser.swift */; };
 		11825E481E9E6416007C81F7 /* FeedChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11825E471E9E6416007C81F7 /* FeedChannel.swift */; };
 		11825E4A1E9E648F007C81F7 /* String+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11825E491E9E648F007C81F7 /* String+Utilities.swift */; };
 		11825E4C1E9E64BA007C81F7 /* String+RemoveHTMLCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11825E4B1E9E64BA007C81F7 /* String+RemoveHTMLCharacters.swift */; };
 		11825E4E1E9E64DE007C81F7 /* String+FeedElementIdentification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11825E4D1E9E64DE007C81F7 /* String+FeedElementIdentification.swift */; };
 		11825E501E9E6593007C81F7 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11825E4F1E9E6593007C81F7 /* FeedItem.swift */; };
+		11C8B7411EA7F77600A76BFD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11C8B7401EA7F77600A76BFD /* GoogleService-Info.plist */; };
+		11F0FE131E9ECA210070A48D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F0FE121E9ECA210070A48D /* MapViewController.swift */; };
 		36B6613C6D8FF3B121D5C8B8 /* Pods_WTWApp2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D9C9987C895533E5D621D /* Pods_WTWApp2.framework */; };
 		6973A63C1E80716D002746DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6973A63B1E80716D002746DE /* AppDelegate.swift */; };
 		6973A63E1E80716D002746DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6973A63D1E80716D002746DE /* ViewController.swift */; };
@@ -58,14 +70,26 @@
 		112959C21E95A0EC006A45C6 /* MyAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAPIClient.swift; sourceTree = "<group>"; };
 		112959C41E95A117006A45C6 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		112959C61E95A143006A45C6 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		114358311EA80D340088EA22 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		114358331EA80D5A0088EA22 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		114358371EA80DA00088EA22 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Downloads/FacebookSDKs-iOS-4/Bolts.framework"; sourceTree = "<group>"; };
+		114358391EA8165B0088EA22 /* FacebookCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookCore.framework; path = "../../Library/Developer/Xcode/DerivedData/WTWApp2-aiaqnikheacynwgdwmgcbqrmmmlx/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework"; sourceTree = "<group>"; };
+		1143583A1EA8165B0088EA22 /* FacebookLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookLogin.framework; path = "../../Library/Developer/Xcode/DerivedData/WTWApp2-aiaqnikheacynwgdwmgcbqrmmmlx/Build/Products/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework"; sourceTree = "<group>"; };
+		1143583B1EA8165B0088EA22 /* FacebookShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookShare.framework; path = "../../Library/Developer/Xcode/DerivedData/WTWApp2-aiaqnikheacynwgdwmgcbqrmmmlx/Build/Products/Debug-iphonesimulator/FacebookShare/FacebookShare.framework"; sourceTree = "<group>"; };
+		1143583C1EA8165B0088EA22 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Library/Developer/Xcode/DerivedData/WTWApp2-aiaqnikheacynwgdwmgcbqrmmmlx/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		1143583D1EA8165B0088EA22 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = "../../Library/Developer/Xcode/DerivedData/WTWApp2-aiaqnikheacynwgdwmgcbqrmmmlx/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework"; sourceTree = "<group>"; };
+		1143583E1EA8165B0088EA22 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = "../../Library/Developer/Xcode/DerivedData/WTWApp2-aiaqnikheacynwgdwmgcbqrmmmlx/Build/Products/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework"; sourceTree = "<group>"; };
+		1143583F1EA8165B0088EA22 /* Stripe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Stripe.framework; path = "../../Library/Developer/Xcode/DerivedData/WTWApp2-aiaqnikheacynwgdwmgcbqrmmmlx/Build/Products/Debug-iphonesimulator/Stripe/Stripe.framework"; sourceTree = "<group>"; };
 		116D9C9987C895533E5D621D /* Pods_WTWApp2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTWApp2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11825E431E9E637C007C81F7 /* FeedEnclosure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedEnclosure.swift; sourceTree = "<group>"; };
-		11825E451E9E63E6007C81F7 /* FeedParswer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedParswer.swift; sourceTree = "<group>"; };
+		11825E451E9E63E6007C81F7 /* FeedParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedParser.swift; sourceTree = "<group>"; };
 		11825E471E9E6416007C81F7 /* FeedChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedChannel.swift; sourceTree = "<group>"; };
 		11825E491E9E648F007C81F7 /* String+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Utilities.swift"; sourceTree = "<group>"; };
 		11825E4B1E9E64BA007C81F7 /* String+RemoveHTMLCharacters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+RemoveHTMLCharacters.swift"; sourceTree = "<group>"; };
 		11825E4D1E9E64DE007C81F7 /* String+FeedElementIdentification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+FeedElementIdentification.swift"; sourceTree = "<group>"; };
 		11825E4F1E9E6593007C81F7 /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		11C8B7401EA7F77600A76BFD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		11F0FE121E9ECA210070A48D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		6973A6381E80716D002746DE /* WTWApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTWApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6973A63B1E80716D002746DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6973A63D1E80716D002746DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,7 +112,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				114358401EA8165B0088EA22 /* FacebookCore.framework in Frameworks */,
+				114358411EA8165B0088EA22 /* FacebookLogin.framework in Frameworks */,
+				114358421EA8165B0088EA22 /* FacebookShare.framework in Frameworks */,
+				114358431EA8165B0088EA22 /* FBSDKLoginKit.framework in Frameworks */,
+				114358441EA8165B0088EA22 /* GoogleToolboxForMac.framework in Frameworks */,
+				114358451EA8165B0088EA22 /* GTMSessionFetcher.framework in Frameworks */,
+				114358461EA8165B0088EA22 /* Stripe.framework in Frameworks */,
+				114358381EA80DA00088EA22 /* Bolts.framework in Frameworks */,
 				36B6613C6D8FF3B121D5C8B8 /* Pods_WTWApp2.framework in Frameworks */,
+				114358321EA80D340088EA22 /* FBSDKCoreKit.framework in Frameworks */,
+				114358341EA80D5A0088EA22 /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +185,7 @@
 				112959BA1E959E06006A45C6 /* Buttons.swift */,
 				6973A6421E80716D002746DE /* Assets.xcassets */,
 				112959BE1E959E43006A45C6 /* CheckoutRowView.swift */,
+				11F0FE121E9ECA210070A48D /* MapViewController.swift */,
 				112959C01E959EA2006A45C6 /* CheckoutViewController.swift */,
 				6973A6441E80716D002746DE /* LaunchScreen.storyboard */,
 				6973A6471E80716D002746DE /* Info.plist */,
@@ -159,10 +194,11 @@
 				112959C41E95A117006A45C6 /* Networking.swift */,
 				11825E4D1E9E64DE007C81F7 /* String+FeedElementIdentification.swift */,
 				11825E491E9E648F007C81F7 /* String+Utilities.swift */,
+				11C8B7401EA7F77600A76BFD /* GoogleService-Info.plist */,
 				11825E471E9E6416007C81F7 /* FeedChannel.swift */,
 				11825E4F1E9E6593007C81F7 /* FeedItem.swift */,
 				112959C61E95A143006A45C6 /* SettingsViewController.swift */,
-				11825E451E9E63E6007C81F7 /* FeedParswer.swift */,
+				11825E451E9E63E6007C81F7 /* FeedParser.swift */,
 				11825E431E9E637C007C81F7 /* FeedEnclosure.swift */,
 			);
 			path = WTWApp2;
@@ -189,6 +225,16 @@
 		D451C99C3A2DAB58E8674082 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				114358391EA8165B0088EA22 /* FacebookCore.framework */,
+				1143583A1EA8165B0088EA22 /* FacebookLogin.framework */,
+				1143583B1EA8165B0088EA22 /* FacebookShare.framework */,
+				1143583C1EA8165B0088EA22 /* FBSDKLoginKit.framework */,
+				1143583D1EA8165B0088EA22 /* GoogleToolboxForMac.framework */,
+				1143583E1EA8165B0088EA22 /* GTMSessionFetcher.framework */,
+				1143583F1EA8165B0088EA22 /* Stripe.framework */,
+				114358371EA80DA00088EA22 /* Bolts.framework */,
+				114358331EA80D5A0088EA22 /* FBSDKShareKit.framework */,
+				114358311EA80D340088EA22 /* FBSDKCoreKit.framework */,
 				116D9C9987C895533E5D621D /* Pods_WTWApp2.framework */,
 			);
 			name = Frameworks;
@@ -306,6 +352,7 @@
 			files = (
 				69BCE46C1E85C5EF002139F7 /* MenuTableViewController.swift in Resources */,
 				6973A6461E80716D002746DE /* LaunchScreen.storyboard in Resources */,
+				11C8B7411EA7F77600A76BFD /* GoogleService-Info.plist in Resources */,
 				6973A6431E80716D002746DE /* Assets.xcassets in Resources */,
 				6973A6411E80716D002746DE /* Main.storyboard in Resources */,
 			);
@@ -394,8 +441,9 @@
 				11825E4E1E9E64DE007C81F7 /* String+FeedElementIdentification.swift in Sources */,
 				11825E501E9E6593007C81F7 /* FeedItem.swift in Sources */,
 				112959C71E95A143006A45C6 /* SettingsViewController.swift in Sources */,
-				11825E461E9E63E6007C81F7 /* FeedParswer.swift in Sources */,
+				11825E461E9E63E6007C81F7 /* FeedParser.swift in Sources */,
 				11825E4C1E9E64BA007C81F7 /* String+RemoveHTMLCharacters.swift in Sources */,
+				11F0FE131E9ECA210070A48D /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,6 +597,26 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Bolts\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FBSDKCoreKit\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FBSDKLoginKit\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FBSDKShareKit\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FacebookCore\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FacebookLogin\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FacebookShare\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMSessionFetcher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Stripe\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Base/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Maps/Frameworks\"",
+					"~/Documents/FacebookSDK",
+				);
 				INFOPLIST_FILE = WTWApp2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Riddle.WTWApp2;
@@ -566,6 +634,26 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Bolts\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FBSDKCoreKit\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FBSDKLoginKit\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FBSDKShareKit\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FacebookCore\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FacebookLogin\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FacebookShare\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMSessionFetcher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Stripe\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Base/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleMaps/Maps/Frameworks\"",
+					"~/Documents/FacebookSDK",
+				);
 				INFOPLIST_FILE = WTWApp2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Riddle.WTWApp2;
