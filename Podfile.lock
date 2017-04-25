@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (4.0.1)
   - Bolts (1.8.4):
     - Bolts/AppLinks (= 1.8.4)
     - Bolts/Tasks (= 1.8.4)
@@ -59,6 +60,8 @@ PODS:
   - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
   - GTMSessionFetcher/Core (1.1.9)
   - Stripe (10.0.1)
+  - SwiftyDropbox (4.1.1):
+    - Alamofire (~> 4.0.1)
 
 DEPENDENCIES:
   - Bolts
@@ -72,8 +75,10 @@ DEPENDENCIES:
   - Firebase/Core
   - GoogleMaps
   - Stripe
+  - SwiftyDropbox
 
 SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
   FacebookCore: 2cb3f0fbff218e9d3119cec84bae983b232412de
   FacebookLogin: c9d606504735780a9e3002465a615512e0a691a5
@@ -90,7 +95,8 @@ SPEC CHECKSUMS:
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
   GTMSessionFetcher: 5c046c76a1f859bc9c187e918f18e4fc7bb57b5e
   Stripe: dd6df0e2c6a8463e2f1ca9b15dc246e5ae1eee64
+  SwiftyDropbox: dfcd4d308d32d74729255b48833db61acdfb9c23
 
-PODFILE CHECKSUM: b2c6ff21d6f2f256ab3f33535fc5f20530eb6995
+PODFILE CHECKSUM: 679d37fed940229089253f004973b4c9273e03b5
 
 COCOAPODS: 1.2.0

@@ -14,5 +14,6 @@ target 'WTWApp2' do
   pod 'FacebookShare'  #Used for login
   pod 'Stripe'         #Used for payments
   pod 'GoogleMaps'     #Creating Google Maps
+  pod 'SwiftyDropbox'
 
 end
