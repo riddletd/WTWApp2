@@ -12,16 +12,18 @@ import FacebookLogin
 
 class ViewController: UIViewController {
 
-    
-    
+    @IBOutlet weak var wtwImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
         let loginButton = LoginButton(readPermissions: [ .publicProfile ])
         loginButton.center = view.center
         
         view.addSubview(loginButton)
+        
+        self.wtwImage.image = #imageLiteral(resourceName: "WTWimage")
     }
 
     override func didReceiveMemoryWarning() {
