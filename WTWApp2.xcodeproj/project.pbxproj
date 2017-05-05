@@ -34,6 +34,15 @@
 		11C8B7411EA7F77600A76BFD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11C8B7401EA7F77600A76BFD /* GoogleService-Info.plist */; };
 		11F0FE131E9ECA210070A48D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F0FE121E9ECA210070A48D /* MapViewController.swift */; };
 		36B6613C6D8FF3B121D5C8B8 /* Pods_WTWApp2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116D9C9987C895533E5D621D /* Pods_WTWApp2.framework */; };
+		690F912E1EBCFBB800F88FAD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F912D1EBCFBB800F88FAD /* HomeViewController.swift */; };
+		690F91301EBCFC9100F88FAD /* StoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F912F1EBCFC9100F88FAD /* StoriesViewController.swift */; };
+		690F91321EBCFD4600F88FAD /* ServeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F91311EBCFD4600F88FAD /* ServeViewController.swift */; };
+		690F91341EBCFD5E00F88FAD /* GiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F91331EBCFD5E00F88FAD /* GiveViewController.swift */; };
+		690F91361EBCFEB600F88FAD /* GearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F91351EBCFEB600F88FAD /* GearViewController.swift */; };
+		690F91381EBCFED800F88FAD /* WineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F91371EBCFED800F88FAD /* WineViewController.swift */; };
+		690F913A1EBCFF4800F88FAD /* GetInvolvedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F91391EBCFF4800F88FAD /* GetInvolvedViewController.swift */; };
+		690F913C1EBCFF9200F88FAD /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F913B1EBCFF9200F88FAD /* ProjectsViewController.swift */; };
+		690F913E1EBCFF9700F88FAD /* PartnersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F913D1EBCFF9700F88FAD /* PartnersViewController.swift */; };
 		6973A63C1E80716D002746DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6973A63B1E80716D002746DE /* AppDelegate.swift */; };
 		6973A63E1E80716D002746DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6973A63D1E80716D002746DE /* ViewController.swift */; };
 		6973A6411E80716D002746DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6973A63F1E80716D002746DE /* Main.storyboard */; };
@@ -90,6 +99,15 @@
 		11825E4F1E9E6593007C81F7 /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 		11C8B7401EA7F77600A76BFD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		11F0FE121E9ECA210070A48D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		690F912D1EBCFBB800F88FAD /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		690F912F1EBCFC9100F88FAD /* StoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesViewController.swift; sourceTree = "<group>"; };
+		690F91311EBCFD4600F88FAD /* ServeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServeViewController.swift; sourceTree = "<group>"; };
+		690F91331EBCFD5E00F88FAD /* GiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiveViewController.swift; sourceTree = "<group>"; };
+		690F91351EBCFEB600F88FAD /* GearViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GearViewController.swift; sourceTree = "<group>"; };
+		690F91371EBCFED800F88FAD /* WineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineViewController.swift; sourceTree = "<group>"; };
+		690F91391EBCFF4800F88FAD /* GetInvolvedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetInvolvedViewController.swift; sourceTree = "<group>"; };
+		690F913B1EBCFF9200F88FAD /* ProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
+		690F913D1EBCFF9700F88FAD /* PartnersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartnersViewController.swift; sourceTree = "<group>"; };
 		6973A6381E80716D002746DE /* WTWApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTWApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6973A63B1E80716D002746DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6973A63D1E80716D002746DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -182,6 +200,15 @@
 				112959B81E959DD3006A45C6 /* BrowseProductsViewController.swift */,
 				69BCE46B1E85C5EF002139F7 /* MenuTableViewController.swift */,
 				6973A63F1E80716D002746DE /* Main.storyboard */,
+				690F913D1EBCFF9700F88FAD /* PartnersViewController.swift */,
+				690F913B1EBCFF9200F88FAD /* ProjectsViewController.swift */,
+				690F91391EBCFF4800F88FAD /* GetInvolvedViewController.swift */,
+				690F912F1EBCFC9100F88FAD /* StoriesViewController.swift */,
+				690F91371EBCFED800F88FAD /* WineViewController.swift */,
+				690F91351EBCFEB600F88FAD /* GearViewController.swift */,
+				690F91311EBCFD4600F88FAD /* ServeViewController.swift */,
+				690F91331EBCFD5E00F88FAD /* GiveViewController.swift */,
+				690F912D1EBCFBB800F88FAD /* HomeViewController.swift */,
 				112959BA1E959E06006A45C6 /* Buttons.swift */,
 				6973A6421E80716D002746DE /* Assets.xcassets */,
 				112959BE1E959E43006A45C6 /* CheckoutRowView.swift */,
@@ -430,19 +457,28 @@
 				11825E4A1E9E648F007C81F7 /* String+Utilities.swift in Sources */,
 				112959B91E959DD3006A45C6 /* BrowseProductsViewController.swift in Sources */,
 				11825E481E9E6416007C81F7 /* FeedChannel.swift in Sources */,
+				690F91361EBCFEB600F88FAD /* GearViewController.swift in Sources */,
 				6973A63E1E80716D002746DE /* ViewController.swift in Sources */,
+				690F91381EBCFED800F88FAD /* WineViewController.swift in Sources */,
+				690F913C1EBCFF9200F88FAD /* ProjectsViewController.swift in Sources */,
 				11825E441E9E637C007C81F7 /* FeedEnclosure.swift in Sources */,
+				690F91301EBCFC9100F88FAD /* StoriesViewController.swift in Sources */,
+				690F913A1EBCFF4800F88FAD /* GetInvolvedViewController.swift in Sources */,
+				690F912E1EBCFBB800F88FAD /* HomeViewController.swift in Sources */,
 				6973A63C1E80716D002746DE /* AppDelegate.swift in Sources */,
 				112959C51E95A117006A45C6 /* Networking.swift in Sources */,
 				112959C31E95A0EC006A45C6 /* MyAPIClient.swift in Sources */,
 				112959BF1E959E43006A45C6 /* CheckoutRowView.swift in Sources */,
 				112959C11E959EA2006A45C6 /* CheckoutViewController.swift in Sources */,
+				690F91321EBCFD4600F88FAD /* ServeViewController.swift in Sources */,
 				112959BB1E959E06006A45C6 /* Buttons.swift in Sources */,
 				11825E4E1E9E64DE007C81F7 /* String+FeedElementIdentification.swift in Sources */,
 				11825E501E9E6593007C81F7 /* FeedItem.swift in Sources */,
 				112959C71E95A143006A45C6 /* SettingsViewController.swift in Sources */,
 				11825E461E9E63E6007C81F7 /* FeedParser.swift in Sources */,
 				11825E4C1E9E64BA007C81F7 /* String+RemoveHTMLCharacters.swift in Sources */,
+				690F913E1EBCFF9700F88FAD /* PartnersViewController.swift in Sources */,
+				690F91341EBCFD5E00F88FAD /* GiveViewController.swift in Sources */,
 				11F0FE131E9ECA210070A48D /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
