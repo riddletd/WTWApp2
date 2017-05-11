@@ -206,12 +206,12 @@
 			isa = PBXGroup;
 			children = (
 				6973A63B1E80716D002746DE /* AppDelegate.swift */,
-				11C872861EC0E1BB00CA2437 /* AmazonViewController.swift */,
 				6973A63D1E80716D002746DE /* ViewController.swift */,
-				112959B81E959DD3006A45C6 /* BrowseProductsViewController.swift */,
-				11C872881EC0E1CB00CA2437 /* CambodiaViewController.swift */,
 				69BCE46B1E85C5EF002139F7 /* MenuTableViewController.swift */,
 				6973A63F1E80716D002746DE /* Main.storyboard */,
+				112959B81E959DD3006A45C6 /* BrowseProductsViewController.swift */,
+				11C872861EC0E1BB00CA2437 /* AmazonViewController.swift */,
+				11C872881EC0E1CB00CA2437 /* CambodiaViewController.swift */,
 				11C8728C1EC0E1DC00CA2437 /* EAViewController.swift */,
 				11C8728A1EC0E1D500CA2437 /* DRViewController.swift */,
 				11C872901EC0E1F700CA2437 /* NepalViewController.swift */,
